@@ -10,15 +10,18 @@ body {
 
   /* Свойства ссылок */
 a {
+  color: #7209b7;
   display: block;
   text-decoration:none;
   margin-bottom: 1.2em;
   position: relative;
 }
 
-  /* Что делать при наведении на ссылку */
+a:visited {
+  color: #7209b7;
+}
 a:hover {
-  color:green;
+  color: #3a5a40;
 }
 
   /* Этим свойством добавляем подчеркивание через создание псевдокласса */
